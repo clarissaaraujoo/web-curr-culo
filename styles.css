@@ -1,0 +1,185 @@
+:root{
+    --primarycolor: #fb26a1;
+    --secundarycolor: #f8afd3;
+    
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 31.25rem;
+    color: #090909;
+}
+
+span{
+    color: #fb26a1
+}
+
+body{
+    background-image: url(imagens/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0.063rem;
+}
+/*estilo do menu de navegação*/
+nav{
+
+    div{
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    }
+    ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: -1.563rem;
+    font-weight: bolder;
+    text-decoration: none;
+
+    li:hover{ 
+    cursor: pointer;
+    color: #fb26a1;
+    transition: 0.5s;
+
+}
+}
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+#buttonModoDark{
+    background-color: var(--primarycolor);
+    color: var(--secundarycolor);
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding: 0.8rem;
+    border-radius: 15rem;
+    border: none;
+}
+
+
+#buttonModoDark:hover{
+    background-color: var(--secundarycolor);
+    color: var(--primarycolor);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*estilo da 1ª dobra/hero*/
+#hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 0.125rem;
+    margin: 6.25rem;
+    font-size: 0.625rem;
+
+
+}
+article{
+    font-size: large;
+    padding-left: 3.438rem;
+
+    p{
+        line-height: 1.4rem;
+        text-align: justify;
+
+    }
+    
+
+    .title{
+        font-size: 4.375rem;
+        font-weight: bolder;
+        line-height: 1.1rem;
+        margin-bottom: 2.5rem;
+    }
+
+
+    .button{
+        cursor: pointer;
+        font-size: 0.938rem;
+        padding: 0.5rem 0.75rem;
+        background-color: #f8afd3;
+        color: #fb26a1;
+        border-style: hidden;
+        border-radius: 0.938rem;
+        margin: 0.125rem;
+
+    }
+}
+  .button:hover{
+        color:#f8afd3;
+        background-color:#fb26a1;
+        transition: 0.5s;
+       }
+
+
+img{
+    width: 21.875rem;
+    height: 21.875rem;
+    margin-left: -0.938rem;
+    border-radius: 62.5rem;
+    border: 0.188rem;
+    border-color: #fb26a1;
+    border-style:solid;
+    padding: 1.563rem;
+  
+    
+}
+
+    
+
+
+/*estilo da 2ª dobra*/
+
+#secundTitle{
+    font-size: 2.5rem;
+    margin-top: 15rem;
+    text-align: center;
+
+}
+
+#secundDobra{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .lista{
+       padding-left: 18rem;
+       padding-right: 15rem;
+       
+
+       p{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fb26a1;
+        
+       }
+       
+       li{
+        list-style-image: url(imagens/iconelist-png.png);
+        list-style-type: circle;
+        letter-spacing: .1rem;
+        text-transform: capitalize;
+        text-align: justify;
+    
+       }
+    }
+
+}
+    
+
+/*estilo rodapé*/
+
+footer{
+    margin-top: 15rem;
+    font-family: roboto;
+}
