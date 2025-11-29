@@ -165,7 +165,7 @@ img{
        }
        
        li{
-        list-style-image: url(imagens/iconelist-png.png);
+        list-style-image: url(images/iconelist-png.png);
         list-style-type: circle;
         letter-spacing: .1rem;
         text-transform: capitalize;
